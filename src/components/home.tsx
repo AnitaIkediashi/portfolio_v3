@@ -57,24 +57,24 @@ export const Home = () => {
           </ul>
         </nav>
       </header>
-      <section className="lg:pt-14 pt-10 lg:px-24 px-8 lg:pb-30 pb-10 grid lg:grid-cols-[1fr_400px] grid-cols-1 gap-12 lg:items-start">
+      <section className="lg:pt-14 pt-10 lg:px-24 px-8 lg:pb-30 pb-10 grid md:grid-cols-[1fr_400px] grid-cols-1 gap-12 md:items-start">
         <div>
-          <h1 className="font-extrabold text-[clamp(48px,10cqw,144px)] leading-[.92] tracking-[-.035em] text-center lg:text-left">
+          <h1 className="font-extrabold text-[clamp(48px,10cqw,144px)] leading-[.92] tracking-[-.035em] text-center md:text-left">
             Anita <br /> Ifeoma <br /> Ikediashi
           </h1>
-          <p className="lg:max-w-150 mt-8 mb-10 text-pretty lg:text-[26px] text-lg leading-[1.3] text-center lg:text-left font-medium">
+          <p className="lg:max-w-150 mt-8 mb-10 text-pretty lg:text-[26px] text-lg leading-[1.3] text-center md:text-left font-medium">
             Full stack developer, mobile photographer and artist.
           </p>
         </div>
         <BouncingAvatar />
       </section>
       <section className="lg:pt-30 pt-10 lg:px-24 px-8">
-        <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-24 gap-10">
+        <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-24 gap-10">
           <div>
             <h2 className="lg:text-5xl text-[28px] leading-[1.05] tracking-[-.03em] text-balance font-extrabold mb-6">
               A little about me
             </h2>
-            <p className="text-pretty lg:max-w-140 mb-9 lg:text-lg text-[15px]">
+            <p className="text-pretty max-w-140 mb-9 lg:text-lg text-[15px]">
               I build full stack products, take photos when the light is good,
               and make art when I need to think. I care about small details,
               fast pages, and pictures that say something.
@@ -88,24 +88,24 @@ export const Home = () => {
               }
             />
           </div>
-          <div className="h-107.5 relative">
+          <div className="md:h-107.5 h-47.5 relative">
             <img
               aria-label="Portrait of anita"
               src={pic_one}
               alt="portrait of me"
-              className="block absolute lg:left-17.5 left-0 top-0 lg:w-1/2 w-[60%] h-87.5 rounded-[20px] border-[6px] border-light shadow-100 rotate-[-5deg] object-cover object-center"
+              className="block absolute lg:left-17.5 left-0 top-0 lg:w-1/2 w-[60%] md:h-87.5 h-37.5 rounded-[20px] border-[6px] border-light shadow-100 rotate-[-5deg] object-cover object-center"
             />
             <img
               aria-label="my drawing"
               src={pic_four}
               alt="art"
-              className="block absolute lg:left-56 left-32.75 top-20 lg:w-1/2 w-[60%] h-87.5 rounded-[20px] border-[6px] border-light shadow-100 rotate-[4deg] object-cover object-center"
+              className="block absolute lg:left-56 left-32.75 top-20 lg:w-1/2 w-[60%] md:h-87.5 h-37.5 rounded-[20px] border-[6px] border-light shadow-100 rotate-[4deg] object-cover object-center"
             />
           </div>
         </div>
       </section>
-      <section className="lg:pt-30 pt-10 lg:px-24 px-8">
-        <div className="flex lg:flex-row flex-col lg:items-end lg:justify-between lg:gap-14 gap-4 lg:mb-14 mb-10">
+      <section className="lg:pt-30 pt-22.5 lg:px-24 px-8">
+        <div className="flex md:flex-row flex-col lg:items-end md:justify-between lg:gap-14 gap-4 lg:mb-14 mb-10">
           <h2 className="lg:text-5xl text-[28px] leading-[1.05] tracking-[-.03em] text-balance font-extrabold">
             Works
           </h2>
@@ -114,14 +114,14 @@ export const Home = () => {
           </p>
         </div>
         <div
-          className="w-full grid lg:grid-cols-2 grid-cols-1 gap-2.5 items-center"
+          className="w-full grid md:grid-cols-2 grid-cols-1 gap-2.5 items-center"
           aria-label="Some of my works"
         >
           <div className="flex flex-col w-full gap-2">
             <img
               src="/talentpoel.png"
               alt="my work"
-              className="lg:h-[33vw] h-[60vw] w-full object-cover rounded"
+              className="md:h-[33vw] h-[60vw] w-full object-cover rounded"
             />
             <p>
               <span className="text-xs opacity-60">01</span>{" "}
@@ -132,7 +132,7 @@ export const Home = () => {
             <img
               src="/travel_booking.png"
               alt="my work"
-              className="lg:h-[33vw] h-[60vw] w-full object-cover rounded"
+              className="md:h-[33vw] h-[60vw] w-full object-cover rounded"
             />
             <p>
               <span className="text-xs opacity-60">02</span>{" "}
