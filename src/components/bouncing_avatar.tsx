@@ -79,7 +79,7 @@ export const BouncingAvatar = () => {
   }, []);
 
   return (
-    <div ref={zoneRef} className="relative h-130 hidden lg:block">
+    <div ref={zoneRef} className="relative h-100 hidden lg:block">
       <div
         ref={avatarRef}
         role="img"

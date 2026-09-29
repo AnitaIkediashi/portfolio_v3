@@ -7,6 +7,7 @@
   --dark: #282046;
   --tint30: rgba(24, 138, 236, 0.3);
   --tint40: rgba(24, 138, 236, 0.4);
+  --shadow-light: 0 18px 40px rgba(40,32,70,.25);
 }
 
 @theme inline {
@@ -15,10 +16,15 @@
   --color-dark: var(--dark);
   --color-tint30: var(--tint30);
   --color-tint40: var(--tint40);
+  --shadow-100: var(--shadow-light);
 }
 
 * {
   font-family: "Preahvihear", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -29,4 +35,8 @@ body {
     var(--blue) 100%
   );
   color: var(--dark);
+}
+
+.hide_scroll::-webkit-scrollbar {
+  display: none;
 }
