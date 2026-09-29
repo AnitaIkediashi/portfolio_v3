@@ -121,7 +121,7 @@ export const Home = () => {
             <img
               src="/talentpoel.png"
               alt="my work"
-              className="h-[33vw] w-full object-cover rounded"
+              className="lg:h-[33vw] h-[60vw] w-full object-cover rounded"
             />
             <p>
               <span className="text-xs opacity-60">01</span>{" "}
@@ -132,7 +132,7 @@ export const Home = () => {
             <img
               src="/travel_booking.png"
               alt="my work"
-              className="h-[33vw] w-full object-cover rounded"
+              className="lg:h-[33vw] h-[60vw] w-full object-cover rounded"
             />
             <p>
               <span className="text-xs opacity-60">02</span>{" "}
