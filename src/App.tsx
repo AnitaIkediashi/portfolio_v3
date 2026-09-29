@@ -1,14 +1,16 @@
-
-import './App.css'
+import { Route, Routes } from "react-router"
+import { Home } from "./components/home"
+import { About } from "./components/about"
+import { Play } from "./components/play"
 
 function App() {
 
   return (
-    <>
-      <section id="center">
-        hello
-      </section>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/play" element={<Play />} />
+    </Routes>
   )
 }
 
