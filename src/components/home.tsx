@@ -75,9 +75,9 @@ export const Home = () => {
               A little about me
             </h2>
             <p className="text-pretty max-w-140 mb-9 lg:text-lg text-[15px]">
-              I build full stack products, take photos when the light is good,
-              and make art when I need to think. I care about small details,
-              fast pages, and pictures that say something.
+              Full-stack engineer, photographer, and artist. I focus on clean
+              code, fast experiences, and intentional design whether I'm
+              building an app or framing a shot.
             </p>
             <Button
               label="More about me"
