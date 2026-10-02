@@ -1,12 +1,9 @@
 import { Link } from "react-router";
-import { GithubIcon } from "./icons/github"
-import { LinkedinIcon } from "./icons/linkedin";
-import { TiktokIcon } from "./icons/tiktok";
 import { BouncingAvatar } from "./bouncing_avatar";
 import { Button } from "./button";
-import { RightArrowIcon } from "./icons/right_arrow";
 import pic_one from "../assets/pic_1.jpeg"
 import pic_four from "../assets/pic_4.jpeg"
+import { GithubIcon, LinkedinIcon, RightArrowIcon, TiktokIcon, TwitterIcon, WhatsappIcon } from "./icons";
 
 const socialsUrl = [
   {
@@ -149,6 +146,38 @@ export const Home = () => {
               <GithubIcon className="group-hover:stroke-dark transition-colors stroke-light" />
             }
           />
+        </div>
+      </section>
+      <section className="lg:pt-40 pt-22.5 lg:px-24 px-8 flex flex-col items-center justify-center">
+        <h2 className="lg:text-5xl text-[28px] leading-[1.05] tracking-[-.03em] text-balance text-center font-extrabold mb-5">
+          Connect, collaborate, or just say hello
+        </h2>
+        <p className="mb-5 font-medium lg:text-[26px] leading-[1.3]">
+          Have a project or an idea? Send it over.
+        </p>
+        <div className="flex flex-col items-center justify-center">
+          <a
+            href="mailto:anitaikediashi83@gmail.com"
+            className="py-1.5 px-3 rounded-xl bg-transparent underline underline-offset-[6px] tracking-[-.01em] mb-5 font-semibold lg:text-[26px] leading-[1.2] hover:bg-tint40 hover:shadow-100 transition-colors duration-200"
+          >
+            anitaikediashi83@gmail.com
+          </a>
+          <div className="lg:w-1/2 w-full grid grid-cols-2 bg-light border-[1.5px] border-dark h-13 md:h-18 rounded-[20px] overflow-hidden">
+            <Link
+              to="https://x.com/Anita_ikediashi"
+              target="_blank"
+              className="grid place-items-center cursor-pointer hover:bg-tint40 bg-transparent transition-colors"
+            >
+              <TwitterIcon />
+            </Link>
+            <Link
+              to="https://wa.me/+2348100406393"
+              target="_blank"
+              className="grid place-items-center border-l cursor-pointer hover:bg-tint40 bg-transparent transition-colors"
+            >
+              <WhatsappIcon />
+            </Link>
+          </div>
         </div>
       </section>
     </>
