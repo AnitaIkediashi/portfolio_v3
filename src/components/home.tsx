@@ -20,6 +20,21 @@ const socialsUrl = [
   },
 ];
 
+const projects = [
+  {
+    id: "talentpoel",
+    title: "Talentpoel",
+    num: "01",
+    image: "/talentpoel.png",
+  },
+  {
+    id: "travel-booking",
+    title: "Booking platform",
+    num: "02",
+    image: "/travel_booking.png",
+  },
+];
+
 export const Home = () => {
   return (
     <>
@@ -114,28 +129,26 @@ export const Home = () => {
           className="w-full grid md:grid-cols-2 grid-cols-1 gap-2.5 items-center"
           aria-label="Some of my works"
         >
-          <div className="flex flex-col w-full gap-2">
-            <img
-              src="/talentpoel.png"
-              alt="my work"
-              className="md:h-[33vw] h-[60vw] w-full object-cover rounded"
-            />
-            <p>
-              <span className="text-xs opacity-60">01</span>{" "}
-              <span>Talentpoel</span>
-            </p>
-          </div>
-          <div className="flex flex-col w-full gap-2">
-            <img
-              src="/travel_booking.png"
-              alt="my work"
-              className="md:h-[33vw] h-[60vw] w-full object-cover rounded"
-            />
-            <p>
-              <span className="text-xs opacity-60">02</span>{" "}
-              <span>Booking platform</span>
-            </p>
-          </div>
+          {projects.map((project) => (
+            <Link
+              to={`/project?id=${project.id}`}
+              key={project.id}
+              className="flex flex-col w-full gap-2 group cursor-pointer"
+            >
+              <div className="w-full md:h-[33vw] h-[60vw] overflow-hidden rounded">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+                />
+              </div>
+              <p className="flex items-center gap-2">
+                <span className="text-xs opacity-60">{project.num}</span>{" "}
+                <span>{project.title}</span>
+                <RightArrowIcon className="w-4 h-4 -translate-x-1 opacity-0 transition-all duration-500 ease-out group-hover:translate-x-0 group-hover:opacity-100" />
+              </p>
+            </Link>
+          ))}
         </div>
         <div className="flex justify-center items-center lg:mt-14 mt-10">
           <Button

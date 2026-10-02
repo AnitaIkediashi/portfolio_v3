@@ -3,6 +3,7 @@ import { Home } from "./components/home"
 import { About } from "./components/about"
 import { Play } from "./components/play"
 import { Footer } from "./components/footer";
+import { Project } from "./components/project";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/play" element={<Play />} />
+        <Route path="/project" element={<Project />} />
       </Routes>
       <Footer />
     </>
