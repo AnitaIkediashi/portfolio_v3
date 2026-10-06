@@ -1,3 +1,5 @@
+import { BentRightArrowIcon } from "./bent_right_arrow";
+import { CancelIcon } from "./cancel";
 import { GithubIcon } from "./github";
 import { LinkedinIcon } from "./linkedin";
 import { RightArrowIcon } from "./right_arrow";
@@ -11,5 +13,7 @@ export {
   TiktokIcon,
   RightArrowIcon,
   WhatsappIcon,
-  TwitterIcon
+  TwitterIcon,
+  BentRightArrowIcon,
+  CancelIcon,
 };
