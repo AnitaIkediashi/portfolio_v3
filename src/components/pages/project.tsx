@@ -1,48 +1,7 @@
-import talentPoelMockup1 from "../assets/mockups/mockup_one-talentpoel.png";
-import talentPoelMockup2 from "../assets/mockups/mockup_two-talentpoel.png";
-import talentPoelMockup3 from "../assets/mockups/mockup_three-talentpoel.png";
-import bookingMockUp1 from "../assets/mockups/mockup_one-booking.png";
-import bookingMockUp2 from "../assets/mockups/mockup_two-booking.png";
-import bookingMockUp3 from "../assets/mockups/mockup_three-booking.png";
 import { Link, useSearchParams } from "react-router";
-import { Button } from "./button";
-import { BentRightArrowIcon, CancelIcon } from "./icons";
-
-const mockData = [
-  {
-    id: "talentpoel",
-    title: "Talentpoel",
-    year: "2023",
-    description:
-      "Talentpoel is a platform that connects talented individuals with potential employers. It allows users to showcase their skills and portfolios, making it easier for companies to find the right talent for their projects.",
-    stack: [
-      "React",
-      "Node.js",
-      "Google sheet API",
-      "Vercel serverless functions",
-    ],
-    url: "https://www.talentpoel.com/",
-    image: [talentPoelMockup1, talentPoelMockup2, talentPoelMockup3],
-  },
-  {
-    id: "travel-booking",
-    title: "Booking platform",
-    year: "2026",
-    description:
-      "A travel booking platform that allows users to search and book flights, hotels, and activities.",
-    stack: [
-      "Next.js",
-      "PostgreSQL",
-      "Prisma",
-      "Stripe API",
-      "Zod",
-      "Supabase",
-      "Cloudinary",
-    ],
-    url: "https://travel-booking-website-omega.vercel.app/",
-    image: [bookingMockUp1, bookingMockUp2, bookingMockUp3],
-  },
-];
+import { mockData } from "../../data";
+import { NotFound } from "./not-found";
+import { CancelIcon } from "../icons";
 
 export const Project = () => {
   const [searchParams] = useSearchParams();
@@ -51,28 +10,7 @@ export const Project = () => {
 
   if (!project) {
     return (
-      <div
-        className="min-h-screen flex flex-col items-center justify-center text-center gap-6 px-6 py-12"
-        aria-label="404 page not found"
-      >
-        <div>
-          <h1 className="text-4xl md:text-6xl capitalize font-extrabold tracking-[-.02em]">
-            oops!
-          </h1>
-          <p className="mt-2 text-lg md:text-2xl">You are lost</p>
-        </div>
-        <img
-          src="/custom_404.png"
-          alt="404"
-          className="w-full max-w-xs sm:max-w-md md:max-w-xl h-auto"
-        />
-        <Button
-          label="Back home"
-          className="flex items-center gap-0.5 hover:font-semibold"
-          icon={<BentRightArrowIcon />}
-          href="/"
-        />
-      </div>
+      <NotFound />
     );
   }
   return (

@@ -1,9 +1,16 @@
 import { Link } from "react-router";
-import { BouncingAvatar } from "./bouncing_avatar";
-import { Button } from "./button";
-import pic_one from "../assets/pic_1.jpeg"
-import pic_four from "../assets/pic_4.jpeg"
-import { GithubIcon, LinkedinIcon, RightArrowIcon, TiktokIcon, TwitterIcon, WhatsappIcon } from "./icons";
+import { BouncingAvatar } from "../bouncing_avatar";
+import { Button } from "../button";
+import pic_one from "../../assets/pic_1.jpeg";
+import pic_four from "../../assets/pic_4.jpeg";
+import {
+  GithubIcon,
+  LinkedinIcon,
+  RightArrowIcon,
+  TiktokIcon,
+  TwitterIcon,
+  WhatsappIcon,
+} from "../icons";
 
 const socialsUrl = [
   {
@@ -195,4 +202,4 @@ export const Home = () => {
       </section>
     </>
   );
-}
+};

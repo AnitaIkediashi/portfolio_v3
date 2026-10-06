@@ -1,12 +1,8 @@
-import { Route, Routes } from "react-router"
-import { Home } from "./components/home"
-import { About } from "./components/about"
-import { Play } from "./components/play"
+import { Route, Routes } from "react-router";
 import { Footer } from "./components/footer";
-import { Project } from "./components/project";
+import { About, Home, NotFound, Play, Project } from "./components/pages";
 
 function App() {
-
   return (
     <>
       <Routes>
@@ -14,10 +10,11 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/play" element={<Play />} />
         <Route path="/project" element={<Project />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </>
   );
 }
 
-export default App
+export default App;
