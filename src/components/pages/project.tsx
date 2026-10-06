@@ -14,7 +14,7 @@ export const Project = () => {
     );
   }
   return (
-    <section className="grid md:grid-cols-2 grid-cols-1 gap-12 px-6 sm:px-8 lg:px-24 pt-10 ">
+    <section className="grid md:grid-cols-2 grid-cols-1 gap-12 px-8 lg:px-24 pt-10 ">
       <button
         type="button"
         title="Go back"

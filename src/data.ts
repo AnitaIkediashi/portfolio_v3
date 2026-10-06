@@ -40,3 +40,27 @@ export const mockData = [
     image: [bookingMockUp1, bookingMockUp2, bookingMockUp3],
   },
 ];
+
+
+export const experienceData = [
+  {
+    id: 1,
+    company: "Huawei Technologies",
+    position: "Full-Stack Engineer",
+    duration: "2023 - Present | Contract",
+    description: [
+      "Built an HRMS for 100+ employees and a real-time shift management dashboard that cut scheduling effort by 40%, while maintaining 99%+ uptime and resolving 50+ monthly support incidents.",
+      "Engineered real-time JavaScript monitoring tools that reduced incident response times by 60%, created reusable component libraries, and mentored junior engineers.",
+    ],
+  },
+  {
+    id: 2,
+    company: "Freelance",
+    position: "Web Developer & Project Owner",
+    duration: "2022 - Present | Remote",
+    description: [
+      "Independently shipped 5+ production websites, including a high-performance Next.js property listing platform (improving load times by 40%) and a feature-rich booking portal with live API and payment integrations.",
+      "Handled end-to-end client projects from scoping through deployment, managing custom domains, DNS records, SSL certificates, and hosting environments via GoDaddy and cPanel.",
+    ],
+  },
+];
