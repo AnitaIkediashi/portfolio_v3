@@ -64,3 +64,58 @@ export const experienceData = [
     ],
   },
 ];
+
+export const stackTools = [
+  {
+    img: "/stack_tools/icons8-react-40.png",
+    name: "React",
+  },
+  {
+    img: "/stack_tools/nextjs.png",
+    name: "Next.js",
+  },
+  {
+    img: "/stack_tools/icons8-typescript-48.png",
+    name: "TypeScript",
+  },
+  {
+    img: "/stack_tools/icons8-javascript-48.png",
+    name: "JavaScript",
+  },
+  {
+    img: "/stack_tools/icons8-sql-48.png",
+    name: "SQL",
+  },
+  {
+    img: "/stack_tools/icons8-postgresql-48.png",
+    name: "PostgreSQL",
+  },
+  {
+    img: "/stack_tools/icons8-prisma-orm-48.png",
+    name: "Prisma",
+  },
+  {
+    img: "/stack_tools/icons8-vite-48.png",
+    name: "Vite",
+  },
+  {
+    img: "/stack_tools/icons8-vue-js-48.png",
+    name: "Vue.js",
+  },
+  {
+    img: "/stack_tools/icons8-python-48.png",
+    name: "Python",
+  },
+  {
+    img: "/stack_tools/icons8-api-48.png",
+    name: "API integration",
+  },
+  {
+    img: "/stack_tools/icons8-dns-48.png",
+    name: "DNS",
+  },
+  {
+    img: "/stack_tools/icons8-git-48.png",
+    name: "Git",
+  },
+]

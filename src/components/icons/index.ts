@@ -1,5 +1,6 @@
 import { BentRightArrowIcon } from "./bent_right_arrow";
 import { CancelIcon } from "./cancel";
+import { DownloadIcon } from "./download";
 import { GithubIcon } from "./github";
 import { LinkedinIcon } from "./linkedin";
 import { RightArrowIcon } from "./right_arrow";
@@ -16,4 +17,5 @@ export {
   TwitterIcon,
   BentRightArrowIcon,
   CancelIcon,
+  DownloadIcon,
 };
