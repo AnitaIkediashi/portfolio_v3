@@ -133,7 +133,7 @@ export const Home = () => {
           </p>
         </div>
         <div
-          className="w-full grid md:grid-cols-2 grid-cols-1 gap-2.5 items-center"
+          className="w-full grid md:grid-cols-2 grid-cols-1 lg:gap-2.5 gap-6 items-center"
           aria-label="Some of my works"
         >
           {projects.map((project) => (
