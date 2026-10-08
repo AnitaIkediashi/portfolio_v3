@@ -18,8 +18,8 @@ export const InstagramIcon = ({ className }: { className?: string }) => {
       <g id="SVGRepo_iconCarrier">
         {" "}
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M15.5 5H9.5C7.29086 5 5.5 6.79086 5.5 9V15C5.5 17.2091 7.29086 19 9.5 19H15.5C17.7091 19 19.5 17.2091 19.5 15V9C19.5 6.79086 17.7091 5 15.5 5Z"
           stroke="currentColor"
           strokeWidth="1.5"
@@ -27,8 +27,8 @@ export const InstagramIcon = ({ className }: { className?: string }) => {
           strokeLinejoin="round"
         ></path>{" "}
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M12.5 15C10.8431 15 9.5 13.6569 9.5 12C9.5 10.3431 10.8431 9 12.5 9C14.1569 9 15.5 10.3431 15.5 12C15.5 12.7956 15.1839 13.5587 14.6213 14.1213C14.0587 14.6839 13.2956 15 12.5 15Z"
           stroke="currentColor"
           strokeWidth="1.5"

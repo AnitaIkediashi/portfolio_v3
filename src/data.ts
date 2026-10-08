@@ -123,6 +123,62 @@ export const stackTools = [
 export const gallery = [
   {
     img: "/src/assets/playground/play-1.jpeg",
-    alt: "A sketch of a serene landscape with mountains and a river.",
-  }
-]
+    alt: "Photograph of flowers",
+  },
+  {
+    img: "/src/assets/playground/play-2.jpeg",
+    alt: "Photograph of swing set on a beach",
+  },
+  {
+    img: "/src/assets/playground/play-3.jpeg",
+    alt: "Photograph of a person on a swing silhouette with a sunset in the background",
+  },
+  {
+    img: "/src/assets/playground/play-4.jpeg",
+    alt: "Drawing of eye expressions",
+  },
+  {
+    img: "/src/assets/playground/play-5.jpeg",
+    alt: "A little visitor stopping by to admire the bloom",
+  },
+  {
+    img: "/src/assets/playground/play-6.jpeg",
+    alt: "Photograph of sunset flower on a vase",
+  },
+  {
+    img: "/src/assets/playground/play-7.jpeg",
+    alt: "A little bit of sunshine captured on stem",
+  },
+  {
+    img: "/src/assets/playground/play-8.jpeg",
+    alt: "A breath of fresh air from the balcony caught with a camera lens",
+  },
+  {
+    img: "/src/assets/playground/play-9.jpeg",
+    alt: "Golden hour hits differently through the city wires",
+  },
+  {
+    img: "/src/assets/playground/play-10.jpeg",
+    alt: "Drawing of a camera",
+  },
+  {
+    img: "/src/assets/playground/play-11.jpeg",
+    alt: "Drawing Lost in thought, one stroke at a time",
+  },
+  {
+    img: "/src/assets/playground/play-12.jpeg",
+    alt: "Drawing of a person with a camera, looking through the lens",
+  },
+  {
+    img: "/src/assets/playground/play-13.jpeg",
+    alt: "Photograph of where architecture meets the endless blue",
+  },
+  {
+    img: "/src/assets/playground/play-14.jpeg",
+    alt: "Drawing of a person lost in thought through the smoke and shadows",
+  },
+  {
+    img: "/src/assets/playground/play-15.jpeg",
+    alt: "Windows to the soul, captured in graphite",
+  },
+];

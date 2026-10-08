@@ -1,5 +1,7 @@
 import { BentRightArrowIcon } from "./bent_right_arrow";
 import { CancelIcon } from "./cancel";
+import { ChevronLeftIcon } from "./chevron-left";
+import { ChevronRightIcon } from "./chevron-right";
 import { DownloadIcon } from "./download";
 import { GithubIcon } from "./github";
 import { LinkedinIcon } from "./linkedin";
@@ -18,4 +20,6 @@ export {
   BentRightArrowIcon,
   CancelIcon,
   DownloadIcon,
+  ChevronLeftIcon,
+  ChevronRightIcon,
 };

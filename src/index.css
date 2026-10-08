@@ -27,7 +27,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   background: linear-gradient(
     180deg,
     var(--light) 0,
@@ -35,7 +35,7 @@ body {
     var(--blue) 100%
   );
   color: var(--dark);
-}
+} */
 
 .hide_scroll::-webkit-scrollbar {
   display: none;
