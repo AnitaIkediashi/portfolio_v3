@@ -190,6 +190,7 @@ export const Play = () => {
               src={item.img}
               alt={item.alt}
               loading="lazy"
+              decoding="async"
               aria-label={item.alt}
               className="w-full h-auto transition-transform duration-500 ease-out group-hover:scale-105"
             />

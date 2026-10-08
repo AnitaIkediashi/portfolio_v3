@@ -4,6 +4,21 @@ import talentPoelMockup3 from "./assets/mockups/mockup_three-talentpoel.png";
 import bookingMockUp1 from "./assets/mockups/mockup_one-booking.png";
 import bookingMockUp2 from "./assets/mockups/mockup_two-booking.png";
 import bookingMockUp3 from "./assets/mockups/mockup_three-booking.png";
+import play1 from "./assets/playground/play-1.jpeg";
+import play2 from "./assets/playground/play-2.jpeg";
+import play3 from "./assets/playground/play-3.jpeg";
+import play4 from "./assets/playground/play-4.jpeg";
+import play5 from "./assets/playground/play-5.jpeg";
+import play6 from "./assets/playground/play-6.jpeg";
+import play7 from "./assets/playground/play-7.jpeg";
+import play8 from "./assets/playground/play-8.jpeg";
+import play9 from "./assets/playground/play-9.jpeg";
+import play10 from "./assets/playground/play-10.jpeg";
+import play11 from "./assets/playground/play-11.jpeg";
+import play12 from "./assets/playground/play-12.jpeg";
+import play13 from "./assets/playground/play-13.jpeg";
+import play14 from "./assets/playground/play-14.jpeg";
+import play15 from "./assets/playground/play-15.jpeg";
 
 export const mockData = [
   {
@@ -122,63 +137,63 @@ export const stackTools = [
 
 export const gallery = [
   {
-    img: "/src/assets/playground/play-1.jpeg",
+    img: play1,
     alt: "Photograph of flowers",
   },
   {
-    img: "/src/assets/playground/play-2.jpeg",
+    img: play2,
     alt: "Photograph of swing set on a beach",
   },
   {
-    img: "/src/assets/playground/play-3.jpeg",
+    img: play3,
     alt: "Photograph of a person on a swing silhouette with a sunset in the background",
   },
   {
-    img: "/src/assets/playground/play-4.jpeg",
+    img: play4,
     alt: "Drawing of eye expressions",
   },
   {
-    img: "/src/assets/playground/play-5.jpeg",
+    img: play5,
     alt: "A little visitor stopping by to admire the bloom",
   },
   {
-    img: "/src/assets/playground/play-6.jpeg",
+    img: play6,
     alt: "Photograph of sunset flower on a vase",
   },
   {
-    img: "/src/assets/playground/play-7.jpeg",
+    img: play7,
     alt: "A little bit of sunshine captured on stem",
   },
   {
-    img: "/src/assets/playground/play-8.jpeg",
+    img: play8,
     alt: "A breath of fresh air from the balcony caught with a camera lens",
   },
   {
-    img: "/src/assets/playground/play-9.jpeg",
+    img: play9,
     alt: "Golden hour hits differently through the city wires",
   },
   {
-    img: "/src/assets/playground/play-10.jpeg",
+    img: play10,
     alt: "Drawing of a camera",
   },
   {
-    img: "/src/assets/playground/play-11.jpeg",
+    img: play11,
     alt: "Drawing Lost in thought, one stroke at a time",
   },
   {
-    img: "/src/assets/playground/play-12.jpeg",
+    img: play12,
     alt: "Drawing of a person with a camera, looking through the lens",
   },
   {
-    img: "/src/assets/playground/play-13.jpeg",
+    img: play13,
     alt: "Photograph of where architecture meets the endless blue",
   },
   {
-    img: "/src/assets/playground/play-14.jpeg",
+    img: play14,
     alt: "Drawing of a person lost in thought through the smoke and shadows",
   },
   {
-    img: "/src/assets/playground/play-15.jpeg",
+    img: play15,
     alt: "Windows to the soul, captured in graphite",
   },
 ];
