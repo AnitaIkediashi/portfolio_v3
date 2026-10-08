@@ -119,3 +119,10 @@ export const stackTools = [
     name: "Git",
   },
 ]
+
+export const gallery = [
+  {
+    img: "/src/assets/playground/play-1.jpeg",
+    alt: "A sketch of a serene landscape with mountains and a river.",
+  }
+]

@@ -22,7 +22,7 @@ const socialsUrl = [
     url: "https://www.linkedin.com/in/anita-ikediashi-a61668188/",
   },
   {
-    icon: <TiktokIcon />,
+    icon: <TiktokIcon className="stroke-dark" />,
     url: "https://www.tiktok.com/@anitezb_art?_r=1&_t=ZS-99jMCVbE8KF",
   },
 ];

@@ -7,12 +7,13 @@ type ButtonProps = {
     href?: string
     icon?: React.ReactNode
     disabled?: boolean
+    target?: string
 }
 
-export const Button = ({ label, href, icon, className }: ButtonProps) => {
+export const Button = ({ label, href, icon, className, target }: ButtonProps) => {
   if (href) {
     return (
-      <Link to={href} className={`${className} cursor-pointer`}>
+      <Link to={href} className={`${className} cursor-pointer`} target={target}>
         {icon && <span>{icon}</span>}
         {label}
       </Link>

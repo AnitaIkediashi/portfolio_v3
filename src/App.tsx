@@ -4,7 +4,7 @@ import { About, Home, NotFound, Play, Project } from "./components/pages";
 
 function App() {
   return (
-    <>
+    <main className="min-h-screen">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -13,7 +13,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
-    </>
+    </main>
   );
 }
 

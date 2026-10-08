@@ -5,7 +5,7 @@ import { Link } from "react-router";
 
 export const About = () => {
   return (
-    <div className="min-h-screen">
+    <>
       <Link
         to="/"
         title="Go back"
@@ -14,7 +14,7 @@ export const About = () => {
       >
         <CancelIcon className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-200 group-hover:rotate-90" />
       </Link>
-      <section className="lg:px-24 px-8 lg:pt-18 pt-8">
+      <section className="lg:px-24 px-8 lg:pt-18 pt-10">
         <h1 className="font-extrabold text-[clamp(48px,10cqw,144px)] leading-[.92] tracking-[-.035em] text-center">
           About me
         </h1>
@@ -121,6 +121,6 @@ export const About = () => {
           </Link>
         </button>
       </section>
-    </div>
+    </>
   );
 };
